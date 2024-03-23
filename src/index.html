@@ -12,12 +12,27 @@
 <body>
   <nav class="navbar navbar-expand-lg py-4 bg--smoke">
     <div class="container-fluid">
-      <a class="navbar-brand bg--primary text--primary" href="#">CARRENT.CO</a>
+      <a class="navbar-brand bg--primary text--primary" href="#">BCRCAR.CO</a>
       <div class="d-flex">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="offcanvas offcanvas-end w-50" data-bs-scroll="true" data-bs-backdrop="true" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasLabel">BCR</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav gap-3">
+              <a class="nav-link" href="#">Our Services</a>
+              <a class="nav-link" href="#">Why Us</a>
+              <a class="nav-link" href="#">Testimonial</a>
+              <a class="nav-link" href="#">FAQ</a>
+              <button type="button" class="btn btn--primary">Register</button>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav gap-3">
             <a class="nav-link" href="#">Our Services</a>
             <a class="nav-link" href="#">Why Us</a>
@@ -25,12 +40,12 @@
             <a class="nav-link" href="#">FAQ</a>
             <button type="button" class="btn btn--primary">Register</button>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </nav>
   <div class="hero bg--smoke d-flex flex-column gap-4 text--neutral">
-    <div class="d-flex justify-content-center gap-2">
+    <div class="d-flex flex-column flex-sm-row justify-content-center gap-2">
       <div class="w-100 d-flex flex-column align-items-start justify-content-center gap-2">
         <h1 class="fw-bold hero__title">
           Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)
@@ -48,7 +63,7 @@
     </div>
   </div>
   <section class="services d-flex justify-content-center">
-    <div class="h-100 services__main d-flex justify-content-center align-items-center">
+    <div class="h-100 services__main d-flex flex-column flex-sm-row justify-content-center align-items-center">
       <div class="services__banner">
         <img src="/src/img/img_service.png" alt="services">
       </div>
@@ -102,8 +117,8 @@
     </div>
   </section>
   <section class="why d-flex flex-column justify-content-center">
-    <h1 class="why__title fw-bold fs-4 mb-3">Why Us?</h1>
-    <p class="why__about fw-light">Mengapa harus pilih Binar Car Rental?</p>
+    <h1 class="why__title fw-bold fs-4 mb-3 text-center text-sm-start">Why Us?</h1>
+    <p class="why__about fw-light text-center">Mengapa harus pilih Binar Car Rental?</p>
     <div class="why__cards">
       <div class="why__card d-flex flex-column align-items-start justify-content-center">
         <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -148,13 +163,13 @@
       <p class="testimony__about fw-light">Berbagai review positif dari para pelanggan kami</p>
     </div>
     <div class="testimony__slider d-flex flex-column align-items-center gap-4">
-      <swiper-container class="mySwiper" space-between="30" slides-per-view="auto" loop="true" centered-slides="true">
+      <swiper-container class="mySwiper" loop="true" centered-slides="true">
         <swiper-slide>
-          <div class="slider_img">
+          <div class="slider_img mb-4">
             <img src="img/img-photo.png" alt="">
           </div>
           <div class="slider_text d-flex flex-column text-start gap-2">
-            <span>
+            <span class="align-self-center align-self-sm-start mb-3">
               <svg width="80" height="16" viewBox="0 0 80 16" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z" fill="#F9CC00"/>
               <path d="M24 0L25.7961 5.52786H31.6085L26.9062 8.94427L28.7023 14.4721L24 11.0557L19.2977 14.4721L21.0938 8.94427L16.3915 5.52786H22.2039L24 0Z" fill="#F9CC00"/>
@@ -173,7 +188,7 @@
             <img src="img/img-photo-2.png" alt="">
           </div>
           <div class="slider_text d-flex flex-column text-start gap-2">
-            <span>
+            <span class="align-self-center align-self-sm-start">
               <svg width="80" height="16" viewBox="0 0 80 16" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z" fill="#F9CC00"/>
               <path d="M24 0L25.7961 5.52786H31.6085L26.9062 8.94427L28.7023 14.4721L24 11.0557L19.2977 14.4721L21.0938 8.94427L16.3915 5.52786H22.2039L24 0Z" fill="#F9CC00"/>
@@ -192,7 +207,7 @@
             <img src="img/img-photo.png" alt="">
           </div>
           <div class="slider_text d-flex flex-column text-start gap-2">
-            <span>
+            <span class="align-self-center align-self-sm-start">
               <svg width="80" height="16" viewBox="0 0 80 16" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z" fill="#F9CC00"/>
               <path d="M24 0L25.7961 5.52786H31.6085L26.9062 8.94427L28.7023 14.4721L24 11.0557L19.2977 14.4721L21.0938 8.94427L16.3915 5.52786H22.2039L24 0Z" fill="#F9CC00"/>
@@ -211,7 +226,7 @@
             <img src="img/img-photo-2.png" alt="">
           </div>
           <div class="slider_text d-flex flex-column text-start gap-2">
-            <span>
+            <span class="align-self-center align-self-sm-start">
               <svg width="80" height="16" viewBox="0 0 80 16" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z" fill="#F9CC00"/>
               <path d="M24 0L25.7961 5.52786H31.6085L26.9062 8.94427L28.7023 14.4721L24 11.0557L19.2977 14.4721L21.0938 8.94427L16.3915 5.52786H22.2039L24 0Z" fill="#F9CC00"/>
@@ -245,7 +260,7 @@
   </section>
   <section class="cta">
     <div class="cta--banner d-flex flex-column align-items-center justify-content-center">
-      <h1 class="text--white text--bolder mb-3">Sewa Mobil di (Lokasimu) Sekarang</h1>
+      <h1 class="text--white text--bolder mb-3 text-center">Sewa Mobil di (Lokasimu) Sekarang</h1>
       <p class="cta--desc text--white text--light">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       </p>
@@ -255,8 +270,8 @@
     </div>
   </section>
   <section class="faq d-flex align-items-center">
-    <div class="faq__container w-100 d-flex flex-row">
-      <div class="faq__header">
+    <div class="faq__container w-100 d-flex flex-column flex-sm-row">
+      <div class="faq__header text-center text-sm-start">
         <h1 class="text--bold mb-3">Frequently Asked Question</h1>
         <p class="text--light">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
       </div>
@@ -323,64 +338,25 @@
             </div>
           </div>
         </div>
-        <!-- <div class="faq__item d-flex align-items-center">
-          <span class="text--light">Apa saja syarat yang dibutuhkan?</span>
-          <span>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M6 9L12 15L18 9" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </span>
-        </div>
-        <div class="faq__item d-flex align-items-center">
-          <span class="text--light">Berapa hari minimal sewa mobil lepas kunci?</span>
-          <span>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M6 9L12 15L18 9" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </span>
-        </div>
-        <div class="faq__item d-flex align-items-center">
-          <span class="text--light">Berapa hari sebelumnya sabaiknya booking sewa mobil?</span>
-          <span>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M6 9L12 15L18 9" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </span>
-        </div>
-        <div class="faq__item d-flex align-items-center">
-          <span class="text--light">Apakah Ada biaya antar-jemput?</span>
-          <span>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M6 9L12 15L18 9" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </span>
-        </div>
-        <div class="faq__item d-flex align-items-center">
-          <span class="text--light">Bagaimana jika terjadi kecelakaan?</span>
-          <span>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M6 9L12 15L18 9" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </span>
-        </div> -->
       </div>
     </divclas>
   </section>
   <footer class="footer">
-    <div class="footer__container d-flex w-100 flex-row align-items-start justify-content-center">
+    <div class="footer__container d-flex w-100 flex-column flex-sm-row align-items-start justify-content-center">
       <div class="footer__address text--light">
         <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
         <p>binarcarrental@gmail.com</p>
         <p>081-233-334-808</p>
       </div>
-      <div class="text--regular d-flex flex-column gap-3">
+      <div class="text--regular d-flex flex-column gap-3 mb-3 mb-sm-0">
         <a class="nav-link" href="#">Our Services</a>
         <a class="nav-link" href="#">Why Us</a>
         <a class="nav-link" href="#">Testimonial</a>
-        <a class="nav-link" href="#">FAQ</a>      </div>
+        <a class="nav-link" href="#">FAQ</a>
+      </div>
       <div>
         <p class="text--light">Connect with us</p>
-        <div class="social__link d-flex gap-3">
+        <div class="social__link d-flex gap-3 mb-3 mb-sm-0">
           <a>
             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="16" cy="16" r="16" fill="#0D28A6"/>
@@ -418,7 +394,7 @@
       </div>
       <div>
         <p class="text--">Copyright Binar 2022</p>
-        <a class="footer__brand navbar-brand bg--primary text--primary" href="#">CARRENT.CO</a>
+        <a class="footer__brand navbar-brand bg--primary text--primary" href="#">BCRCAR.CO</a>
       </div>
     </div>
   </footer>
@@ -433,6 +409,18 @@
     buttonNext.addEventListener('click', () => {
       swiperElement.swiper.slideNext();
     });
+
+    Object.assign(swiperElement, {
+      slidesPerView: 1,
+      spaceBetween: 24,
+      breakpoints: {
+          576: {
+            slidesPerView: 'auto',
+            spaceBetween: 32,
+          },
+        },
+    })
+    swiperElement.initialize();
   </script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
   <script type="text/javascript" src="https://db.onlinewebfonts.com/s/0d49fc455f4a8951a42daf952412a713?family=Helvetica+Neue+Regular"></script>
