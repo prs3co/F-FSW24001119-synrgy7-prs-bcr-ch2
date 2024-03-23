@@ -1,4 +1,4 @@
-# Binar-Car-Rental CH1
+# Binar-Car-Rental
 
 assignmentt project for binar snrgy bootcamp
 
