@@ -1,6 +1,6 @@
-# Binar-Car-Rental CH1
+# Binar-Car-Rental
 
-assignmentt project for binar snrgy bootcamp chapter 1
+Assignmentt Project For Binar SNRGY Bootcamp
 
 ## Preview
 ![Preview](https://github.com/prs3co/binar-car-rental-ch1/blob/main/readme/bcr-ch1.gif)
