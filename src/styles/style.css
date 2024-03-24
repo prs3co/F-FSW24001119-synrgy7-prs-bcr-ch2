@@ -19,8 +19,8 @@
 }
 
 .navbar {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .navbar > .container-fluid {
@@ -66,14 +66,14 @@
 
 .text--bold {
 font-weight: 700;
-font-size: 24px;
+font-size: 1.5rem;
 line-height: 2.25rem;
 }
 
 .text--bolder {
-font-weight: 700;
-font-size: 36px;
-line-height: 3.375rem;
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 3.375rem;
 }
 
 /* .rounded--btn {
@@ -97,7 +97,7 @@ line-height: 3.375rem;
 
 .hero {
   padding-top: 20px;
-  padding-left: 1.5rem;
+  padding-left: 1rem;
 }
 
 .hero__title {
@@ -106,13 +106,13 @@ line-height: 3.375rem;
 }
 
 .hero__desc {
-  width: 80%;
+  width: 100%;
 }
 
 .services {
   height: 100%;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   padding-top: 3.75rem;
   padding-bottom: 3.75rem;
 }
@@ -143,8 +143,8 @@ line-height: 3.375rem;
 } */
 
 .why {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .why__title {
@@ -154,7 +154,7 @@ line-height: 3.375rem;
 .why__cards {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .why__card {
@@ -197,7 +197,7 @@ line-height: 3.375rem;
 .testimony__slider {
   height: auto;
   width: 100%;
-  padding: 0 1.5rem;
+  padding: 0 1rem;
 }
 
 .slider_img {
@@ -213,11 +213,11 @@ line-height: 3.375rem;
 .cta {
   /* height: 55vh; */
   height: auto;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
-.cta--banner {
+.cta__banner {
   width: 100%;
   /* height: 20.375rem; */
   height: auto;
@@ -226,14 +226,20 @@ line-height: 3.375rem;
   padding: 4rem 3.625rem;
 }
 
-.cta--desc {
+.cta__title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+}
+
+.cta__desc {
   width: auto;
   text-align: center;
-  margin-bottom: 3.25rem;
+  margin-bottom: 2rem;
 }
 
 .faq {
-  padding: 3.75rem 1.5rem;
+  padding: 3.75rem 1rem;
   height: auto;
 }
 
@@ -275,7 +281,7 @@ line-height: 3.375rem;
 
 .footer {
   height: auto;
-  padding: 0 1.5rem;
+  padding: 0 1rem;
 }
 
 .footer__container {
@@ -307,6 +313,10 @@ line-height: 3.375rem;
     padding-left: 8.5rem;
   }
 
+  .hero__desc {
+    width: 80%;
+  }
+
   .services {
     padding-left: 12rem;
     padding-right: 12rem;
@@ -328,6 +338,7 @@ line-height: 3.375rem;
 
   .why__cards {
     flex-direction: row;
+    gap: 2rem;
   }
 
   .testimony__slider {
@@ -342,6 +353,16 @@ line-height: 3.375rem;
     height: 55vh;
     padding-left: 8.5rem;
     padding-right: 8.5rem;
+  }
+
+  .cta__title {
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 3.375rem;
+  }
+
+  .cta__desc {
+    margin-bottom: 3.25rem;
   }
 
   .faq {
