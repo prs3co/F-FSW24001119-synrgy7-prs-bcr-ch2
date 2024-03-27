@@ -65,9 +65,9 @@
 }
 
 .text--bold {
-font-weight: 700;
-font-size: 1.5rem;
-line-height: 2.25rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
 }
 
 .text--bolder {
@@ -97,6 +97,7 @@ line-height: 2.25rem;
 
 .hero {
   padding-top: 20px;
+  padding-bottom: 1.875rem;
   padding-left: 1rem;
 }
 
@@ -111,10 +112,7 @@ line-height: 2.25rem;
 
 .services {
   height: 100%;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 3.75rem;
-  padding-bottom: 3.75rem;
+  padding: 1.875rem 1rem;
 }
 
 .services__main {
@@ -143,8 +141,7 @@ line-height: 2.25rem;
 } */
 
 .why {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 1.875rem 1rem;
 }
 
 .why__title {
@@ -181,7 +178,8 @@ line-height: 2.25rem;
 }
 
 .testimony {
-  height: 100vh;
+  height: 100%;
+  padding: 1.875rem 0;
 }
 
 .testimony__title {
@@ -211,10 +209,8 @@ line-height: 2.25rem;
 }
 
 .cta {
-  /* height: 55vh; */
-  height: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  height: 100%;
+  padding: 1.875rem 1rem;
 }
 
 .cta__banner {
@@ -239,7 +235,7 @@ line-height: 2.25rem;
 }
 
 .faq {
-  padding: 3.75rem 1rem;
+  padding: 1.875rem 1rem;
   height: auto;
 }
 
@@ -281,7 +277,7 @@ line-height: 2.25rem;
 
 .footer {
   height: auto;
-  padding: 0 1rem;
+  padding: 1.875rem 1rem;
 }
 
 .footer__container {
@@ -304,6 +300,102 @@ line-height: 2.25rem;
 
 @media screen and (min-width: 576px) {
   .navbar {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .hero {
+    padding-top: 20px;
+    padding-left: 1.5rem;
+  }
+
+  .services {
+    height: 100%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .testimony__slider {
+    height: auto;
+    width: 100%;
+    padding: 0 1.5rem;
+  }
+
+  .why {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .cta {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .faq {
+    padding: 3.75rem 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    height: auto;
+  }
+
+  .footer {
+    padding: 0 1.5rem;
+  }
+
+  .footer__container {
+    gap: 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .hero {
+    padding-top: 20px;
+    padding-left: 1.5rem;
+  }
+
+  .services {
+    height: 100%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .testimony__slider {
+    height: auto;
+    width: 100%;
+    padding: 0 1.5rem;
+  }
+
+  .why {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .cta {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .faq {
+    padding: 1.875rem 1.5rem;
+    height: auto;
+  }
+
+  .footer {
+    padding: 0 1.5rem;
+  }
+
+  .footer__container {
+    gap: 5.375rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .navbar {
     padding-left: 8.5rem;
     padding-right: 8.5rem;
   }
@@ -311,6 +403,7 @@ line-height: 2.25rem;
   .hero {
     padding-top: 20px;
     padding-left: 8.5rem;
+    padding-bottom: 3.125rem;
   }
 
   .hero__desc {
@@ -318,6 +411,7 @@ line-height: 2.25rem;
   }
 
   .services {
+    padding: 3.125rem 12rem;
     padding-left: 12rem;
     padding-right: 12rem;
   }
@@ -332,13 +426,16 @@ line-height: 2.25rem;
   }
 
   .why {
-    padding-left: 8.5rem;
-    padding-right: 8.5rem;
+    padding: 3.125rem 8.5rem;
   }
 
   .why__cards {
     flex-direction: row;
     gap: 2rem;
+  }
+
+  .testimony {
+    padding: 3.125rem 0;
   }
 
   .testimony__slider {
@@ -350,9 +447,7 @@ line-height: 2.25rem;
   }
 
   .cta {
-    height: 55vh;
-    padding-left: 8.5rem;
-    padding-right: 8.5rem;
+    padding: 3.125rem 8.5rem;
   }
 
   .cta__title {
@@ -366,9 +461,7 @@ line-height: 2.25rem;
   }
 
   .faq {
-    padding-left: 8.5rem;
-    padding-right: 8.5rem;
-    height: 85vh;
+    padding: 3.125rem 8.5rem;
   }
 
   .faq__container{
@@ -380,11 +473,12 @@ line-height: 2.25rem;
   }
 
   .footer {
-    height: 25vh;
-    padding: 0 0;
+    height: 100%;
+    padding: 6.25rem 0;
   }
 
   .footer__container {
+    padding: 0 8.5rem;
     gap: 5.375rem;
   }
 }
