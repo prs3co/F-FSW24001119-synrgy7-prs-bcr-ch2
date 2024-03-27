@@ -24,10 +24,10 @@
           </div>
           <div class="offcanvas-body">
             <div class="navbar-nav gap-3">
-              <a class="nav-link" href="#">Our Services</a>
-              <a class="nav-link" href="#">Why Us</a>
-              <a class="nav-link" href="#">Testimonial</a>
-              <a class="nav-link" href="#">FAQ</a>
+              <a class="nav-link" href="#services">Our Services</a>
+              <a class="nav-link" href="#why">Why Us</a>
+              <a class="nav-link" href="#testimony">Testimonial</a>
+              <a class="nav-link" href="#faq">FAQ</a>
               <button type="button" class="btn btn--primary">Register</button>
             </div>
           </div>
@@ -45,12 +45,12 @@
     </div>
   </nav>
   <div class="hero bg--smoke d-flex flex-column gap-4 text--neutral">
-    <div class="d-flex flex-column flex-sm-row justify-content-center gap-4">
-      <div class="w-100 pe-3 pe-sm-0 d-flex flex-column align-items-start justify-content-center gap-2 gap-sm-2">
-        <h1 class="fw-bold hero__title">
+    <div class="d-flex flex-column flex-md-row justify-content-center gap-4">
+      <div class="w-100 pe-3 pe-sm-4 pe-md-0 d-flex flex-column align-items-start justify-content-center gap-2">
+        <h1 class="fw-bold hero__title mb-3">
           Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)
         </h1>
-        <p class="fw-light lh-sm mb-2 mb-sm-3 hero__desc">
+        <p class="fw-light lh-sm mb-3 hero__desc">
           Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.
         </p>
         <button type="button" class="btn btn--primary" style="--bs-btn-padding-y: 8px; --bs-btn-padding-x: 12px; --bs-btn-font-size: 14px;">
@@ -62,8 +62,8 @@
       </div>
     </div>
   </div>
-  <section class="services d-flex justify-content-center">
-    <div class="h-100 services__main d-flex flex-column flex-sm-row justify-content-center align-items-center">
+  <section id="services" class="services d-flex justify-content-center">
+    <div class="h-100 services__main d-flex flex-column flex-md-row justify-content-center align-items-center">
       <div class="services__banner">
         <img src="/src/img/img_service.png" alt="services">
       </div>
@@ -116,9 +116,9 @@
       </div>
     </div>
   </section>
-  <section class="why d-flex flex-column justify-content-center">
-    <h1 class="why__title fw-bold mb-3 text-center text-sm-start text--bold">Why Us?</h1>
-    <p class="why__about fw-light text-center">Mengapa harus pilih Binar Car Rental?</p>
+  <section id="why" class="why d-flex flex-column justify-content-center">
+    <h1 class="why__title fw-bold mb-3 text-center text-lg-start text--bold">Why Us?</h1>
+    <p class="why__about fw-light text-center text-lg-start">Mengapa harus pilih Binar Car Rental?</p>
     <div class="why__cards">
       <div class="why__card d-flex flex-column align-items-start justify-content-center">
         <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -157,19 +157,19 @@
       </div>
     </div>
   </section>
-  <section class="testimony d-flex flex-column justify-content-center align-items-center">
+  <section id="testimony" class="testimony d-flex flex-column justify-content-center align-items-center">
     <div class="testimony__header d-flex flex-column align-items-center">
       <h1 class="testimony__title fw-bold text--bold">Testimonial</h1>
       <p class="testimony__about fw-light">Berbagai review positif dari para pelanggan kami</p>
     </div>
-    <div class="testimony__slider d-flex flex-column align-items-center gap-3 gap-sm-4">
+    <div class="testimony__slider d-flex flex-column align-items-center gap-3 gap-md-4">
       <swiper-container class="mySwiper" loop="true" centered-slides="true">
         <swiper-slide>
           <div class="slider_img mb-4">
             <img src="img/img-photo.png" alt="">
           </div>
           <div class="slider_text d-flex flex-column text-start gap-2">
-            <span class="align-self-center align-self-sm-start mb-3">
+            <span class="align-self-center align-self-md-start mb-3 mb-md-0">
               <svg width="80" height="16" viewBox="0 0 80 16" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z" fill="#F9CC00"/>
               <path d="M24 0L25.7961 5.52786H31.6085L26.9062 8.94427L28.7023 14.4721L24 11.0557L19.2977 14.4721L21.0938 8.94427L16.3915 5.52786H22.2039L24 0Z" fill="#F9CC00"/>
@@ -188,7 +188,7 @@
             <img src="img/img-photo-2.png" alt="">
           </div>
           <div class="slider_text d-flex flex-column text-start gap-2">
-            <span class="align-self-center align-self-sm-start">
+            <span class="align-self-center align-self-md-start mb-3 mb-md-0">
               <svg width="80" height="16" viewBox="0 0 80 16" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z" fill="#F9CC00"/>
               <path d="M24 0L25.7961 5.52786H31.6085L26.9062 8.94427L28.7023 14.4721L24 11.0557L19.2977 14.4721L21.0938 8.94427L16.3915 5.52786H22.2039L24 0Z" fill="#F9CC00"/>
@@ -207,7 +207,7 @@
             <img src="img/img-photo.png" alt="">
           </div>
           <div class="slider_text d-flex flex-column text-start gap-2">
-            <span class="align-self-center align-self-sm-start">
+            <span class="align-self-center align-self-md-start mb-3 mb-md-0">
               <svg width="80" height="16" viewBox="0 0 80 16" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z" fill="#F9CC00"/>
               <path d="M24 0L25.7961 5.52786H31.6085L26.9062 8.94427L28.7023 14.4721L24 11.0557L19.2977 14.4721L21.0938 8.94427L16.3915 5.52786H22.2039L24 0Z" fill="#F9CC00"/>
@@ -226,7 +226,7 @@
             <img src="img/img-photo-2.png" alt="">
           </div>
           <div class="slider_text d-flex flex-column text-start gap-2">
-            <span class="align-self-center align-self-sm-start">
+            <span class="align-self-center align-self-md-start mb-3 mb-md-0">
               <svg width="80" height="16" viewBox="0 0 80 16" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M8 0L9.79611 5.52786H15.6085L10.9062 8.94427L12.7023 14.4721L8 11.0557L3.29772 14.4721L5.09383 8.94427L0.391548 5.52786H6.20389L8 0Z" fill="#F9CC00"/>
               <path d="M24 0L25.7961 5.52786H31.6085L26.9062 8.94427L28.7023 14.4721L24 11.0557L19.2977 14.4721L21.0938 8.94427L16.3915 5.52786H22.2039L24 0Z" fill="#F9CC00"/>
@@ -258,7 +258,7 @@
       </div>
     </div>
   </section>
-  <section class="cta">
+  <section id="cta" class="cta">
     <div class="cta__banner d-flex flex-column align-items-center justify-content-center">
       <h1 class="cta__title text--white text--bolder mb-3 text-center">Sewa Mobil di (Lokasimu) Sekarang</h1>
       <p class="cta__desc text--white text--light">
@@ -269,9 +269,9 @@
       </button>
     </div>
   </section>
-  <section class="faq d-flex align-items-center">
-    <div class="faq__container w-100 d-flex flex-column flex-sm-row">
-      <div class="faq__header text-center text-sm-start">
+  <section id="faq" class="faq d-flex align-items-center">
+    <div class="faq__container w-100 d-flex flex-column flex-md-row">
+      <div class="faq__header text-center text-md-start">
         <h1 class="text--bold mb-3">Frequently Asked Question</h1>
         <p class="text--light">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
       </div>
@@ -342,13 +342,13 @@
     </divclas>
   </section>
   <footer class="footer">
-    <div class="footer__container d-flex w-100 flex-column flex-sm-row align-items-start justify-content-center">
+    <div class="footer__container d-flex w-100 flex-column flex-sm-row align-items-start">
       <div class="footer__address text--light">
         <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
         <p>binarcarrental@gmail.com</p>
         <p>081-233-334-808</p>
       </div>
-      <div class="text--regular d-flex flex-column gap-3 mb-3 mb-sm-0">
+      <div class="text--regular d-flex flex-column gap-3 mb-3 mb-md-0">
         <a class="nav-link" href="#">Our Services</a>
         <a class="nav-link" href="#">Why Us</a>
         <a class="nav-link" href="#">Testimonial</a>
@@ -356,7 +356,7 @@
       </div>
       <div>
         <p class="text--light">Connect with us</p>
-        <div class="social__link d-flex gap-3 mb-3 mb-sm-0">
+        <div class="social__link d-flex gap-3 mb-3 mb-md-0">
           <a>
             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="16" cy="16" r="16" fill="#0D28A6"/>
@@ -398,30 +398,7 @@
       </div>
     </div>
   </footer>
-  <script>
-    const swiperElement = document.querySelector('swiper-container');
-    const buttonPrev = document.querySelector('.testimony__nav--prev');
-    const buttonNext = document.querySelector('.testimony__nav--next');
-
-    buttonPrev.addEventListener('click', () => {
-      swiperElement.swiper.slidePrev();
-    });
-    buttonNext.addEventListener('click', () => {
-      swiperElement.swiper.slideNext();
-    });
-
-    Object.assign(swiperElement, {
-      slidesPerView: 1,
-      spaceBetween: 24,
-      breakpoints: {
-          576: {
-            slidesPerView: 'auto',
-            spaceBetween: 32,
-          },
-        },
-    })
-    swiperElement.initialize();
-  </script>
+  <script type="text/javascript" src="js/lib.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
   <script type="text/javascript" src="https://db.onlinewebfonts.com/s/0d49fc455f4a8951a42daf952412a713?family=Helvetica+Neue+Regular"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
